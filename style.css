@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+
+font-family: 'Soria';
+
+src: url('font/Soria/Soria font.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+
+ html,body{
+ font-family: 'Soria';
+	width:100%;
+	height:100%;
+}
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:20px;
+}
+.navigation li{
+
+	color:white;
+	display:block;
+	padding: 0 20px;
+	line-height:40px;
+	margin-bottom:2px;
+	font-weight:bold;
+	-webkit-transition: all .1s ease-in-out;
+	border-bottom:1px solid white;
+	text-align:left;
+	width:63px;
+}
+.navigation li:hover,.active{
+	font-size:35px;
+	cursor:pointer;
+	width:100px!important;
+}
+
+
+
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color:#333333;
+	background-image:url(images/arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+	background-color:#5c9900;
+	
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background-color:#005c99;
+	
+}
+
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background-color:#b6c10b;
+}
+
+
+.portfoliofoto{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	position: absolute;
+	right: 550px;
+	top: 200px;
+}
+
+.contactList{
+	font-size: 27px;
+	font-family: 'Soria';
+	position: relative;
+	left: 27%;
+	margin: 0;
+	padding: 4px;
+	top: 50%;
+}
+.listCont{
+	display: inline; 
+    margin-right: 5px; 
+    padding: 140px;
+    width: 5px;
+}
+hr{
+	width: 40px;
+	left: 27%;
+}
