@@ -68,7 +68,7 @@ font-style: normal;
 	bottom:0px;
 	left:50%;
 	background-color:#333333;
-	background-image:url(images/arrow.png);
+	background-image:url(img/arrow.png);
 }
 .button:hover{
 	background-color:#494949;
@@ -79,50 +79,272 @@ font-style: normal;
  SLIDE 1 
 *******************************/
 #slide1{
-	background-color:#5c9900;
+	background-image:url(img/82.png);
 	
 }
-/******************************
- SLIDE 2 
-*******************************/
-#slide2{
-	background-color:#005c99;
-	
-}
-
-/******************************
- SLIDE 3 
-*******************************/
-#slide3{
-	background-color:#b6c10b;
-}
-
 
 .portfoliofoto{
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
 	position: absolute;
-	right: 550px;
-	top: 200px;
+	right: 850px;
+	top: 50px;
 }
-
-.contactList{
-	font-size: 27px;
-	font-family: 'Soria';
+.portfoliofotoLine{
 	position: relative;
-	left: 27%;
-	margin: 0;
-	padding: 4px;
 	top: 50%;
 }
-.listCont{
-	display: inline; 
-    margin-right: 5px; 
-    padding: 140px;
-    width: 5px;
+
+.textblock1{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 45%;
+	left: 16%;
+	text-align: center;
+	display: block;
+	font-size: 28px;
+	color: white;
+	font-weight: 13px;
+	
+}
+
+.textblock2{
+	position: absolute;
+	width: 630px;
+	height: 350px;
+	top: 44%;
+	left: 54%;
+	text-align: left;
+	display: block;
+	font-size: 28px;
+	color: white;
+	font-weight: 13px;
+	
+}
+
+.caption1{
+	position: relative;
+	left: 30%;
+}
+
+
+// .text-typing{
+//    width: 40em;
+//     color:green;
+//     font-size: 22px;
+//     font-family: 'Marck Script', cursive;
+//     white-space:nowrap;
+//     overflow:hidden;
+//     -webkit-animation: type 5s steps(50, end);
+//     animation: type 5s steps(50, end);
+// }
+// @keyframes type{
+//     from { width: 0; }
+// }
+ 
+// @-webkit-keyframes type{
+//     from { width: 0; }
+// }
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background-image:url(img/80.png);
+	
+}
+
+.portfolio-items li {
+display:inline;
+float:left;
+list-style:none;
+position:relative;
+margin:0px;
+}
+
+.portfolio-items li img {
+display:inline;
+-moz-border-radius:5px;
+-moz-box-shadow:0 0 5px rgba(0,0,0,0.35);
+-webkit-box-shadow:0 0 5px rgba(0,0,0,0.35);
+padding:0px;
+margin:0px;
+}
+
+.portfolio-items li div.caption h3{
+font-weight:500;
+font-size:26px;
+text-align: center;
+text-transform:uppercase;
+margin:35px;
+border-bottom:1px solid #aaa;
+text-shadow:1px 1px 1px #303857;
+
+}
+
+.portfolio-items li div.caption{
+display:block;
+background:rgba(0,0,0,0.7);
+color:#fff;
+font-weight:400;
+font-size:25px;
+position:absolute;
+text-align: center;
+overflow:hidden;
+text-shadow:1px 1px 1px #303857;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .3s ease-in-out;
+-moz-transition:all .3s ease-in-out;
+-o-transition:all .3s ease-in-out;
+-ms-transition:all .3s ease-in-out;
+transition:all .3s ease-in-out;
+}
+
+.portfolio-items li:hover div.caption{
+width:920px;
+height:200px;
+opacity:1;
+filter:alpha(opacity=80);
+}
+
+.portfolio-items li div.caption {
+top:0px;
+right:0px;
+width:0;
+height:0;
+}
+
+.projectblock1{
+	width: 920px;
+	height: 200px;
+	
+	float: left;
+	margin-top: 40px;
+	margin-left: 200px;
+}
+
+.fotoslide1{
+	width: 240px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+
+}
+.fotoslide2{
+	width: 240px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+
+}
+
+.fotoslide3{
+	width: 230px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+
+}
+.fotoslide4{
+	width: 190px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+}
+
+
+
+.projectblock2{
+	width: 920px;
+	height: 200px;
+
+	float: left;
+	margin-top: 40px;
+	margin-left: 200px;
+}
+
+
+.fotoslide5{
+	width: 330px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+}
+.fotoslide7{
+	width: 340px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+}
+
+.fotoslide6{
+	width: 230px;
+	height: 200px;
+	padding: 0px;
+	margin:0px;
+}
+
+
+.projectblock3{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	float: left;
+	margin-top: 200px;
+	margin-left: 50px;
+}
+
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background-image:url(img/191.jpg);
+}
+
+
+
+
+.contactblock{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-left: 250px;
+	margin-top: 300px;
+	text-align: center;
+	
+}
+
+.socialblock{
+	width: 300px;
+	height: 200px;
+	float: right;
+	margin-right: 250px;
+	text-align: center;
+	
+	margin-top: 300px;
 }
 hr{
-	width: 40px;
-	left: 27%;
+	width: 75%;
+}
+.contactList{
+	font-family: 'Soria';
+	font-size: 25px;
+	color: white;
+}
+
+a:hover {
+color: #f00;
+}
+
+a {
+text-decoration:none;
+color: white;
+}
+
+footer{
+	
+	position: relative;
+	top: 95%;
 }
